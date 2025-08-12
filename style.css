@@ -1,0 +1,58 @@
+:root{
+    --primary-color: rgb(255, 248, 215) ;
+    --secondary-color: rgb(255, 233, 185); 
+    --text-color:rgb(79, 108, 79);
+    --card-color:rgb(229, 236, 209) ;
+    }
+
+*{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}    
+
+header{
+background-color:var(--secondary-color);
+height: 80px;
+text-align: center;
+
+}
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: var(--primary-color);
+}
+
+.challenge{
+margin-top: 30px;
+width: 550px;
+height: 200px;
+display: flex;
+flex-wrap: wrap;
+justify-self: center;
+}
+
+.card img {
+    width: 130px;
+    border-radius: 20px;
+}
+.card{
+padding: 15px;
+margin: 20px;
+background-color: var(--card-color);
+width: 200px;
+height: 150;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+/* حده اللون - راسي -افقي  */
+box-shadow: -20px 5px 20px rgb(165, 141, 141) ;
+}
+.card button{
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: var(--primary-color);
+}
